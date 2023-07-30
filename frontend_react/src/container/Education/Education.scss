@@ -1,0 +1,184 @@
+.app__education{
+    flex:1;
+    width:100%;
+    flex-direction: column;
+}
+.edu__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    .edu__left__kv{
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        h3{
+            font-size: 1.5rem;
+            margin: 2rem;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-align: left;
+            font-weight:600;
+        }
+        h5{
+            margin: 2rem;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            text-align: left;
+        }
+        .kv{
+            position: relative;
+            top:0px;
+        }
+        .kv__address{
+            position: relative;
+            top:5px;
+        }
+        .kv__year{
+            position: relative;
+            top:5px;
+            margin-bottom: 2rem;
+        }
+        @media screen and (max-width: 1200px) {
+            width: 70%;
+            flex-direction: column;
+            align-items: center;
+            h5,h3{
+                text-align: center;
+            }
+            
+        }
+        
+    }
+    .edu__left__sastra{
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        h3{
+            
+            font-size: 1.5rem;
+            margin: 2rem;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-align: left;
+            font-weight:600;
+        }
+        h5{
+            margin: 2rem;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            text-align: left;
+        }
+        .sastra{
+            position: relative;
+        }
+        .sastra__address{
+            position: relative;
+            top:5px;
+        }
+        .branch{
+            position: relative;
+            top:10px;
+        }
+        .sastra__year{
+            position: relative;
+            top:15px;
+            margin-bottom: 2.5rem;
+        }
+        @media screen and (max-width: 1200px) {
+            width: 70%;
+            flex-direction: column;
+            align-items: center;
+            h5,h3{
+                text-align: center;
+            }
+        }
+    }
+    .edu__right__kv{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        .edu__kv{
+            width:15rem;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+            &:hover {
+                box-shadow: var(--box-shadow);
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            width: 40%;
+            flex-direction: column;
+            align-items: center;
+            .edu__kv{
+                width:25rem;
+            }
+
+        }
+        @media screen and (max-width: 850px) {
+            width: 40%;
+            flex-direction: column;
+            align-items: center;
+            .edu__kv{
+                width:20rem;
+            }
+
+        }
+        @media screen and (max-width: 600px) {
+            width: 40%;
+            flex-direction: column;
+            align-items: center;
+            .edu__kv{
+                width:15rem;
+            }
+
+        }
+        
+    }
+    .edu__right__sastra{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        .edu__sastra{
+            // margin: 2rem;
+            width:15rem;
+            border-radius: 10px;
+            margin-bottom: 3rem;
+            &:hover {
+                box-shadow: var(--box-shadow);
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            width: 40%;
+            flex-direction: column;
+            align-items: center;
+            .edu__sastra{
+                width:25rem;
+            }
+        }
+        @media screen and (max-width: 850px) {
+            width: 40%;
+            flex-direction: column;
+            align-items: center;
+            .edu__sastra{
+                width:20rem;
+            }
+
+        }
+        @media screen and (max-width: 600px) {
+            width: 40%;
+            flex-direction: column;
+            align-items: center;
+            .edu__sastra{
+                width:15rem;
+            }
+
+        }
+        
+    }
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+        flex-direction: column;
+        margin-top:2rem;
+    }
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* :root {
+  --font-base: "DM Sans", sans-serif;
+  --logo-filter: brightness(0) invert(1);
+  --primary-color: #0e0618;
+  --primary-color2: #150a24;
+  --primary-color3: #1a0c2d;
+  --secondary-color: #9857D3;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --lp-color: #ac82d3;
+  --nav-dot-light:#d3abed;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --background: rgba(0, 0, 0, 0.5);
+  --border: 1px solid rgba(0,0,0,0.25);
+  --box-shadow: 0 0 25px rgba(0,0,0,5);
+  --background-black-button: #251C31;
+  --dark-purple: #2e1343;
+  --shadow:0 0 25px #09060c;
+  --footer-back: #1e1032;
+  --header-badge: 0 0 20px rgba(0, 0, 0,0.5);
+  --header-circle: 0 0 20px rgba(0,0,0,0.1);
+  --skill-circle: 0 0 15px #000000;
+} */
+.light-theme{
+  --font-base: "DM Sans", sans-serif;
+  --logo-filter: brightness(0) invert(0);
+  --primary-color: #3a58ff;
+  --primary-color2: #6483ff;
+  --primary-color3: #2b39ff;
+  --secondary-color: #001e82;
+  --black-color: #030303;
+  --lightGray-color: #c5d0ff;
+  --lp-color: #e9e9e9;
+  --nav-dot-light:#82a3ff;
+  --brown-color: #46364a;
+  --white-color: #000000;
+  --background: rgba(255, 255, 255, 0.3);
+  --border: 1px solid rgba(103, 103, 103, 0.25);
+  --box-shadow: 0 0 25px rgba(0,0,0,0.5);
+  --background-black-button: #ccdaff;
+  --dark-purple: #3c43ce;
+  --shadow:0 0 20px #5b2bf8;
+  --footer-back: #4631d1;
+  --header-badge: 0 0 20px rgba(0, 27, 199, 0.5);
+  --header-circle: 0 0 20px rgba(0, 0, 0, 0.214);
+  --skill-circle: 0 0 20px #1740d376;
+  --nav-menu-shadow: 0 0 10px #001e82;
+}
+.dark-theme{
+  --font-base: "DM Sans", sans-serif;
+  --logo-filter: brightness(0) invert(1);
+  --primary-color: #0e0618;
+  --primary-color2: #150a24;
+  --primary-color3: #1a0c2d;
+  --secondary-color: #9857D3;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --lp-color: #ac82d3;
+  --nav-dot-light:#d3abed;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+  --background: rgba(0, 0, 0, 0.5);
+  --border: 1px solid rgba(0,0,0,0.25);
+  --box-shadow: 0 0 25px rgba(0,0,0,5);
+  --background-black-button: #251C31;
+  --dark-purple: #2e1343;
+  --shadow:0 0 25px #09060c;
+  --footer-back: #1e1032;
+  --header-badge: 0 0 20px rgba(0, 0, 0,0.5);
+  --header-circle: 0 0 20px rgba(0,0,0,0.1);
+  --skill-circle: 0 0 15px #000000;
+  --nav-menu-shadow: 0 0 10px #9857d3;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
