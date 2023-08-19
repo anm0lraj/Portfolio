@@ -33,7 +33,7 @@ const Navbar = () => {
                 ))}
             </ul>
             <div>
-                <a href="https://drive.google.com/file/d/1iV_DWkrhr9cmMjqARZEUydnqpoE1kHGk/view?usp=sharing"><button className='resume'><h4>Resume</h4></button></a>
+                <a href="https://drive.google.com/file/d/1yIh197ht9d5uy9GwuXe9B2OjVuZzQxPd/view?usp=sharing"><button className='resume'><h4>Resume</h4></button></a>
             </div>
             <div className='btn' onClick={()=>toggleTheme()}>
                 <h5>Change Theme</h5>
