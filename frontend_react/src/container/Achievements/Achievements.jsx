@@ -11,8 +11,8 @@ const Achievements = () => {
         <ul>
           <li>Winner of the Intercollege UI/UX Design Hackathon</li>
           <li>Top 10 in SCAN-IT's Bits N Bytes Coding Competition</li>
-          <li>250+ problems solved on LeetCode have a rank of 2.5 lakhs</li>
-          <li>5 Stars in C++ & Python on Hackerrank</li>
+          <li>300+ problems solved on LeetCode have a rank of 1.7 lakhs</li>
+          <li>5 Stars in C++ & Python on HackerRank</li>
           <li>3 Stars in Codechef</li>
           <li>3rd Position in Daksh Full Stack Development Workshop</li>
           <li>SOF Cyber Olympiad - 1 Gold</li>
